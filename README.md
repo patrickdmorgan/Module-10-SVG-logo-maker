@@ -42,6 +42,9 @@ https://youtu.be/BK6xMWFW1-E
 how to share a video:
 https://youtu.be/6LMZxKG-qW0
 
+tutorials for command line prompts:
+https://www.digitalocean.com/community/tutorials/nodejs-interactive-command-line-prompts
+
 SVG tutorial:
 https://www.w3schools.com/graphics/svg_intro.asp
 
