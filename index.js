@@ -24,3 +24,42 @@ function writeToFile(answers) {
     err ? console.log(err) : console.log("Generated logo.svg");
   });
 }
+// Function allows user to choose SVG styling in the command line
+function promptUser() {
+    inquirer
+      .prompt([
+        {
+          type: "list",
+          message: "Choose SHAPE (Triangle, Square, Circle)",
+          choices: ["Triangle", "Square", "Circle"],
+          name: "shape",
+        },
+        {
+          type: "input",
+          message: "Choose SHAPE COLOR (Enter a color)",
+          name: "shapeBackgroundColor",
+        },
+        {
+          type: "input",
+          message: "Choose TEXT (Enter text max 3 characters)",
+          name: "text",
+        },
+        {
+          type: "input",
+          message: "Choose TEXT COLOR (Enter a color)",
+          name: "textColor",
+        },
+      ])
+      // Upon success writes to file 
+      .then((answers) => {
+        if (answers.text.length > 3) {
+          console.log("Enter a value (max 3 characters)");
+          promptUser();
+        } else {
+          writeToFile(answers);
+        }
+      });
+  }
+  
+  promptUser();
+  

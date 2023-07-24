@@ -32,3 +32,19 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ```
 
 ## Link to walkthrough video
+https://drive.google.com/file/d/1wxRSngNmml7D6uZOQhc2t_y4tIzYvnoo/view?usp=sharing
+
+## Sources
+
+how to screen record on mac book:
+https://youtu.be/BK6xMWFW1-E
+
+how to share a video:
+https://youtu.be/6LMZxKG-qW0
+
+SVG tutorial:
+https://www.w3schools.com/graphics/svg_intro.asp
+
+used stack overflow to define shapes:
+https://stackoverflow.com/questions/55206823/how-to-create-a-valid-svg-element-with-javascript
+
